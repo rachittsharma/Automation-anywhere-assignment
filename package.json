@@ -1,0 +1,19 @@
+{
+  "name": "automation-anywhere-testing-suite",
+  "version": "1.0.0",
+  "description": "Automation Anywhere UI and API Testing Suite with Playwright",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/usecase1.spec.js",
+    "test:api": "npx playwright test tests/usecase2.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "dotenv": "^16.4.5"
+  }
+}
