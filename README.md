@@ -4,7 +4,7 @@ A robust, enterprise-grade test automation suite built with **Playwright (JavaSc
 
 ---
 
-## 📋 Use Cases Covered
+##  Use Cases Covered
 
 ### 1. Use Case 1: Form with Rules Builder (UI Automation)
 - **Flow**:
@@ -42,7 +42,7 @@ A robust, enterprise-grade test automation suite built with **Playwright (JavaSc
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Core Framework**: Playwright (`^1.45.0`)
 - **Language**: JavaScript (ES6+)
@@ -52,7 +52,7 @@ A robust, enterprise-grade test automation suite built with **Playwright (JavaSc
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 ```text
 ├── src
@@ -73,7 +73,7 @@ A robust, enterprise-grade test automation suite built with **Playwright (JavaSc
 
 ---
 
-## ⚙️ Setup & Configuration
+##  Setup & Configuration
 
 ### Prerequisites
 Ensure **Node.js** (v18 or higher) is installed on your system.
@@ -93,7 +93,7 @@ AA_PASS=your_secure_password
 
 ---
 
-## 🚀 Execution Instructions
+##  Execution Instructions
 
 Tests are configured to execute sequentially under a single worker to prevent session collisions on the Community Edition environment.
 
@@ -114,7 +114,7 @@ npm run test:api
 
 ---
 
-## 📊 Playwright HTML Report
+##  Playwright HTML Report
 
 After completing a test run, an interactive HTML report with execution details, screenshots, and logs is generated. To view the report:
 
